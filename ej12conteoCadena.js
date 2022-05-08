@@ -11,7 +11,7 @@ conteo("cinco");
 //? form 2
 function conteoRecursivo2(texto) {
     if (texto.length > 0){
-        return 1 + conteoRecursivo2(texto.slice(1))
+        return 1 + conteoRecursivo2(texto.slice(1));
     }else{
         return 0;
     }
