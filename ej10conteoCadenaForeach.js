@@ -8,7 +8,7 @@ function recorrido(cadena){
 }
 recorrido(["ana","karen",])
 
-// forma 2
+//? forma 2
 function conteo(n){
     let lenguajes = n;
     lenguajes.forEach(function(valor, indice, lenguajes) {
