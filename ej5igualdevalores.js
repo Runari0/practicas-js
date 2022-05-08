@@ -1,9 +1,9 @@
-function isEqual(a,b) {
+//? determina la igualdad absoluta
+function comparar(a,b) {
 if (a === b) {
-    return true;
+    return console.log(true);
 } else {
-    return false;
+    return console.log(false);
     }
 }
-
-isEqual(1,2)
+comparar("2",2);
