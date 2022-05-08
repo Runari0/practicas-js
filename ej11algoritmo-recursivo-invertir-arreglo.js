@@ -5,9 +5,9 @@ function invertirArregloProceso(arreglo, indice, cadena){
 }
 function invertirArreglo(nombres){
     let resultado = invertirArregloProceso(nombres, nombres.length, ``);
-    console.log(resultado)
+    console.log(resultado);
 }
-invertirArreglo(["ana","maria","luis","z"])
+invertirArreglo(["ana","maria","luis","z"]);
 console.log();
 //forma 2
 function invertirArregloProceso2(arreglo, indice, cadena){
@@ -19,6 +19,6 @@ function invertirArregloProceso2(arreglo, indice, cadena){
 }
 function invertirArreglo2(nombres){
     let resultado = invertirArregloProceso2(nombres, nombres.length, ``);
-    console.log(resultado)
+    console.log(resultado);
 }
 invertirArreglo2(["ana","maria","luis","z"]);
