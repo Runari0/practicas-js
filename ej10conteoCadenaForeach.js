@@ -6,7 +6,7 @@ function recorridoArreglo(valor, indice, lenguajes) {
 function recorrido(cadena){
     cadena.forEach(recorridoArreglo);
 }
-recorrido(["ana","karen",])
+recorrido(["ana","karen",]);
 
 //? forma 2
 function conteo(n){
@@ -15,4 +15,4 @@ function conteo(n){
         console.log(`${valor} se encuentra en el índice ${indice}`);
     });
 }
-conteo(["ana","karen","lol"])
+conteo(["ana","karen","lol"]);
