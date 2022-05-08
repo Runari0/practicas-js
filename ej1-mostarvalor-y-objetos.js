@@ -2,7 +2,6 @@
 //motar arreglos tipos y modificarlos
 
 var a = 5; var b = "lol";
-
 console.log("valor y tipo de variable a");
 console.log(a);
 console.log(typeof(a)); 
@@ -29,11 +28,9 @@ console.log("-------");
 console.log("usar Object.key para ver los indice dentro de un objeto");
 console.log(Object.keys(liter));
 console.log("-------");
-Object.keys(liter).forEach((valor) => {
-    console.log(valor)
-});
+Object.keys(liter).forEach((valor) => { console.log(valor)});
 console.log("-------");
-
+//-------------------------------------
 const cadena = [10, 5,10]; 
 console.log("valores de una cadena");
 console.log(cadena);
