@@ -6,8 +6,8 @@ function recorridoArreglo(valor, indice, lenguajes) {
 function recorrido(cadena){
     cadena.forEach(recorridoArreglo);
 }
-recorrido(["ana","karen",]);
-
+recorrido(["ana","karen","lol"]);
+console.log();
 //? forma 2
 function conteo(n){
     let lenguajes = n;
