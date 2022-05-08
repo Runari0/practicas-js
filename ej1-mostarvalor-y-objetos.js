@@ -1,5 +1,5 @@
-// mostar variables, tipos y mofificarlos
-//motar arreglos tipos y modificarlos
+//? mostar variables, tipos y mofificarlos
+//? motar arreglos tipos y modificarlos
 
 var a = 5; var b = "lol";
 console.log("valor y tipo de variable a");
