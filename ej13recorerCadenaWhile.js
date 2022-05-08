@@ -7,7 +7,6 @@ i = 0;
     }
 }
 Recorrer([10, 9, 8, 7, 6]);
-
 console.log()
 //?reversa
 function reversa(arr){
